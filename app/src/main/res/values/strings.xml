@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News_Feed_App</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="searchItem">Search Item</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="appLabel">News Feed</string>
+</resources>
