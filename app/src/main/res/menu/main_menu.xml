@@ -7,17 +7,21 @@
         android:id="@+id/help"
         app:showAsAction="never"
         android:orderInCategory="102"></item>
+
     <item android:title="@string/about"
         android:id="@+id/about"
         app:showAsAction="never"
         android:orderInCategory="103"></item>
+
     <item
         android:id="@+id/bookmark"
         android:orderInCategory="101"
         android:title="@string/bookmarks"
         app:showAsAction="never"></item>
+
     <item android:title="@string/searchItem"
-        android:id="@+id/search_bar"
+
+        android:id="@+id/searchItem"
         android:icon="@drawable/search_icon"
         android:orderInCategory="100"
         app:showAsAction="always"

@@ -13,8 +13,9 @@
         <activity android:name=".BookmarkActivity"></activity>
         <activity android:name=".AboutActivity" />
         <activity android:name=".HelpActivity" />
+
         <activity android:name=".MainActivity"
-            android:label="@string/appLabel" >
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

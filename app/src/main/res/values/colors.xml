@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="Background">#FF9800</color>
     <color name="menuText">#FFFFFF</color>
-    <color name="text">#000000</color>
+    <color name="text">#FFFFFF</color>
+    <color name="searchView">#FC0054</color>
 
 </resources>

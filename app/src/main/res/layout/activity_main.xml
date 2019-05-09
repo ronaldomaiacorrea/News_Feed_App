@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
 
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
