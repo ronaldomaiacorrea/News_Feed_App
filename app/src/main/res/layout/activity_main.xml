@@ -4,20 +4,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:weightSum="3">
 
-
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+    <TextView
+        android:id="@+id/title"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:progressTint="@color/colorPrimary"
-        android:visibility="invisible"></ProgressBar>
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:padding="10dp"
+        android:text="@string/title"
+        android:textColor="#FF6F00"
+        android:textFontWeight="5"
+        android:textSize="25sp" />
 
-    <android.support.v7.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/search_layout"
+            android:fontFamily="@font/nunito_semibold"
+            android:hint="Search here..."
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp" />
+
+        <ImageButton
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/cancel_custom"
+            android:background="@android:color/transparent"
+            android:paddingLeft="1dp"
+            android:paddingTop="8dp"
+            android:paddingRight="1dp"/>
+
+        <ImageButton
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingLeft="1dp"
+            android:paddingTop="8dp"
+            android:paddingRight="1dp"
+            android:src="@drawable/custom_button" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/searchTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
 
 </LinearLayout>

@@ -5,4 +5,5 @@
     <string name="searchItem">Search Item</string>
     <string name="bookmarks">Bookmarks</string>
     <string name="appLabel">News Feed</string>
+    <string name="title">News Feed</string>
 </resources>
