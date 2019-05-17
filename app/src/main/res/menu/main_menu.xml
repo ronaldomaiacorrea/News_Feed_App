@@ -3,34 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="@string/help"
-        android:id="@+id/help"
-        app:showAsAction="never"
-        android:orderInCategory="102"></item>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/share"
+        android:title="@string/share"/>
+
+    <item
+        android:id="@+id/bookmark"
+        android:orderInCategory="102"
+        android:title="@string/bookmarks"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="always"></item>
 
     <item android:title="@string/about"
         android:id="@+id/about"
         app:showAsAction="never"
         android:orderInCategory="103"></item>
-
-    <item
-        android:id="@+id/bookmark"
-        android:orderInCategory="101"
-        android:title="@string/bookmarks"
-        app:showAsAction="never"></item>
-
-    <item android:title="@string/searchItem"
-
-        android:id="@+id/searchItem"
-        android:icon="@drawable/search_icon"
-        android:orderInCategory="100"
-        app:showAsAction="always"
-        app:actionViewClass="android.support.v7.widget.SearchView"></item>
-
-
-
-
-
 
 
 

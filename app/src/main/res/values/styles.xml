@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:itemBackground">@color/Background</item>
         <item name="android:actionMenuTextColor">@color/menuText</item>
+        <item name="android:title"></item>
     </style>
 
 </resources>

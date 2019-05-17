@@ -1,9 +1,14 @@
 <resources>
-    <string name="app_name">News_Feed_App</string>
+    <string name="app_name"></string>
     <string name="help">Help</string>
     <string name="about">About</string>
     <string name="searchItem">Search Item</string>
     <string name="bookmarks">Bookmarks</string>
     <string name="appLabel">News Feed</string>
     <string name="title">News Feed</string>
+    <string name="titleNews">Title</string>
+    <string name="name">Name</string>
+    <string name="link">Link</string>
+    <string name="goback">Go Back</string>
+    <string name="share">Share</string>
 </resources>

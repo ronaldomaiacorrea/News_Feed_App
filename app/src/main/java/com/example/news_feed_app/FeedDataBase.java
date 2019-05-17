@@ -12,8 +12,10 @@ class FeedDatabase extends SQLiteOpenHelper {
     public static final String TABLE_BOOKMARKS = "Bookmarks";
     public static final String TABLE_SEARCH_TAGS = "Search_Tags";
     public static final String COL_ID = "_id";
+    public static final String COL_NAME = "NAME";
     public static final String COL_TITLE = "TITLE";
-    public static final String COL_LINK = "LINK";
+    public static final String COL_URL = "URL";
+    public static final String COL_URL_IMAGE = "URL_IMAGE";
     public static final String COL_TAG = "TAG";
 
     public FeedDatabase(Activity ctx) {
@@ -25,8 +27,10 @@ class FeedDatabase extends SQLiteOpenHelper {
         //Make sure you put spaces between SQL statements and Java strings:
         db.execSQL("CREATE TABLE " + TABLE_BOOKMARKS + "( "
                 + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+                + COL_NAME + " TEXT, "
                 + COL_TITLE + " TEXT, "
-                + COL_LINK + " TEXT)");
+                + COL_URL + " TEXT, "
+                + COL_URL_IMAGE + "TEXT)");
 
         db.execSQL("CREATE TABLE " + TABLE_SEARCH_TAGS + "( "
                 + COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"

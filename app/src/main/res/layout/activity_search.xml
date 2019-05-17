@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".SearchActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/myToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"></android.support.v7.widget.Toolbar>
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
@@ -16,8 +22,10 @@
         android:progressTint="@color/colorPrimary"
         android:visibility="invisible"></ProgressBar>
 
-    <WebView
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></WebView>
+        android:layout_height="wrap_content"></ListView>
+
 
 </LinearLayout>
